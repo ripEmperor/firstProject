@@ -103,6 +103,28 @@ body {
     text-align: center;
 }
 
+.quoteZone {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: lightgray;
+    height: 400px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote {
+    width: 800px;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 400px;
+}
+
 a {
     color: #FFFFFF;
     text-decoration: none;
