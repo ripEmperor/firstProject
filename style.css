@@ -12,7 +12,7 @@ body {
     padding-left: 300px;
     padding-right: 300px;
     padding-top: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 .topHeader {
@@ -23,13 +23,13 @@ body {
 
 .botHeader {
     display: flex;
+    justify-content: space-between;
 }
 
 .placeholder {
     display: flex;
     height: 195px;
     width: 500px;
-    margin-left: 350px;
     align-items: center;
     justify-content: center;
     background-color: gray;
@@ -42,12 +42,14 @@ body {
 }
 
 .title {
+    display:flex;
     font-size: 24px;
     font-weight: 700;
     color: #FFFFFF;
 }
 
 .heroMain {
+    display:flex;
     font-size: 48px;
     font-weight: bolder;
     width: 400px;
@@ -55,6 +57,7 @@ body {
 }
 
 .heroDesc {
+    display:flex;
     margin-top: 5px;
     font-size: 18px;
     width: 400px;
@@ -67,6 +70,37 @@ body {
     height: 30px;
     border: none;
     margin-top: 5px;
+}
+
+.box {
+    width:125px;
+    height:125px;
+    border: solid rgb(28, 106, 250);
+    border-radius: 10px;
+    margin-left: 35px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.subtext {
+    padding-top: 10px;
+}
+  
+.boxplustext {
+    max-width: 200px;
+}
+
+.middletitle {
+    padding-top: 18px;
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
 }
 
 a {
