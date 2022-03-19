@@ -72,6 +72,16 @@ body {
     margin-top: 5px;
 }
 
+.signupButton2 {
+    background-color: rgb(98, 98, 238);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    border: solid 1px white;
+    margin-top: 5px;
+    color: #FFFFFF;
+}
+
 .box {
     width:125px;
     height:125px;
@@ -123,6 +133,30 @@ body {
     font-size: 24px;
     font-weight: 700;
     padding-left: 400px;
+}
+
+.botSection {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #FFFFFF;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 515px;
+    margin-right: 515px;
+    background-color: rgb(98, 98, 238);
+    border-radius: 10px;
+    margin-top:3%;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #FFFFFF;
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top:3%;
 }
 
 a {
